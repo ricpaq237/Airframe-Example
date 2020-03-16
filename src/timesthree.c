@@ -75,6 +75,7 @@ static void mdlOutputs(SimStruct *S, int_T tid)
          */
         *y++ = 3.0 *(*uPtrs[i]);
         i = i;
+        y = y;
     }
 }
 
